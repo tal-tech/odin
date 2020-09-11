@@ -36,7 +36,7 @@ odin框架可提供统一的服务注册管理，仅通过配置地址方式即�
 础上，开发插件系统，包括限流、断路器、打点统计、耗时报警等。
 
 ### 开发便捷
-Odin结合配套的辅助工具rigger，可以直接生成框架模板，业务使用方只需定义对外提供接口，可自动生成服务代码，开发只需编写
+Odin结合配套的辅助工具[rigger](http://github.com/tal-tech/rigger)，可以直接生成框架模板，业务使用方只需定义对外提供接口，可自动生成服务代码，开发只需编写
 业务逻辑。提供给其他服务的client代码，同样可命令生成，方便调用。
 
 ### 自定义支持
@@ -47,23 +47,23 @@ Odin框架目前已支持日志Trace跨服务传递，记录一次完整请求�
 
 ### Install
 ```
-//进入开发目录$GOPATH/src
-$ cd $GOPATH/src/
-
-//Clone项目到开发目录
-$ git clone git@github.com:tal-tech/odin.git
+rigger new micro rpcproject
+正克隆到 '/winshare/go/src/rpcproject'...
+rpcprojec项目已创建完成, 使用:
+cd /winshare/go/src/rpcproject && rigger build 
+开始你的微服务之旅！
 ```
 
 ### Build
 ```
 //Makefile可依需求自定义
-make
+rigger build
 ```
 
 ### Run
 ```
 //启动
-bin/odin
+rigger start
 ```
 
 ## Config
@@ -85,7 +85,7 @@ basePath=/odin_demo
 
 ## Example
 ```
-go run -tags 'zookeeper' examples/main.go  -c $GOPATH/src/odin/conf/conf.ini
+rigger example zookeeper
 //Output
 SayHello: i'm hello service,recv greeting:hello, i'm odin client
 AddUser: &{Id:3}
