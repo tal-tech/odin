@@ -1,5 +1,27 @@
 # Odin
 
+<p align="center">
+ <a href="https://tal-tech.github.io/odin-doc/" target="_blank">
+     <img src="https://xesftp.oss-cn-beijing.aliyuncs.com/oa/res/odin.jpg"  alt="Odin Logo" align=center />
+ </a> 
+</p>
+
+业内存在多款流行的微服务框架，包括Montan、rpcx、gRpc、Dubbo等
+
+Odin框架是好未来在使用rpcx框架过程中不断完善、改进的，目前已在好未来多个部门使用，承载大量核心服务，经历暑期大班直播高峰考验
+
+2019年 开始搭建框架主架构，并在此基础上不断完善、补充新功能
+
+2020年8月 开源 欢迎大家一起参与共建
+
+
+
+## Fend框架文档    
+
+[Document](https://tal-tech.github.io/odin-doc/) 
+
+[中文文档](https://www.yuque.com/tal-tech/odin/readme) 
+
 ## Introduction
 
 Odin是基于go语言的rpc框架，框架除了致力于提供高性能的服务间调用能力外，也提供完善的服务治理功能、支持多种服务注册发现机制。为了业务方使用框架更加便捷，框架还具有配套管理工具自动生成代码，提高开发效率。
