@@ -2,7 +2,7 @@
 
 <p align="center">
  <a href="https://tal-tech.github.io/odin-doc/" target="_blank">
-     <img src="https://xesftp.oss-cn-beijing.aliyuncs.com/oa/res/odin.jpg"  alt="Odin Logo" align=center />
+     <img src="https://xesftp.oss-cn-beijing.aliyuncs.com/oa/res/odin.jpg?raw=true"  alt="Odin Logo" align=center />
  </a> 
 </p>
 
