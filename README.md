@@ -16,7 +16,7 @@ Odin框架是好未来在使用rpcx框架过程中不断完善、改进的，目
 
 
 
-## Fend框架文档    
+## Odin框架文档    
 
 [Document](https://tal-tech.github.io/odin-doc/) 
 
