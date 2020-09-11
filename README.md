@@ -1,5 +1,3 @@
-# Odin
-
 <p align="center">
  <a href="https://tal-tech.github.io/odin-doc/" target="_blank">
      <img src="https://xesftp.oss-cn-beijing.aliyuncs.com/oa/res/odin.jpg?raw=true"  alt="Odin Logo" align=center />
@@ -16,17 +14,17 @@ Odin框架是好未来在使用rpcx框架过程中不断完善、改进的，目
 
 
 
-## Fend框架文档    
+## Odin框架文档    
 
 [Document](https://tal-tech.github.io/odin-doc/) 
 
 [中文文档](https://www.yuque.com/tal-tech/odin/readme) 
 
-## Introduction
+## 简介
 
 Odin是基于go语言的rpc框架，框架除了致力于提供高性能的服务间调用能力外，也提供完善的服务治理功能、支持多种服务注册发现机制。为了业务方使用框架更加便捷，框架还具有配套管理工具自动生成代码，提高开发效率。
 
-## Features
+## 特性 
 
 ### 高性能
 首先，框架底层基于rpcx框架，其是一个纯Go语言的rpc框架，与主流rpc框架进行性能对比，优势明显。其性能仅弱于Go原生rpc调用。
@@ -43,9 +41,13 @@ Odin结合配套的辅助工具[rigger](http://github.com/tal-tech/rigger)，可
 Odin框架目前已支持日志Trace跨服务传递，记录一次完整请求的所有记录，根据同一TraceID，查看全部链路。其他包括动态插件都
 可自定义开发，只需最终在main注入即可。
 
-## Quick Start
+## 快速入门
 
-### Install
+### 安装脚手架
+
+通过 [rigger](http://github.com/tal-tech/rigger)脚手架可一键创建odin模板的rpcx项目
+
+### 安装框架
 ```
 rigger new micro rpcproject
 正克隆到 '/winshare/go/src/rpcproject'...
@@ -54,19 +56,19 @@ cd /winshare/go/src/rpcproject && rigger build
 开始你的微服务之旅！
 ```
 
-### Build
+### 编译
 ```
 //Makefile可依需求自定义
 rigger build
 ```
 
-### Run
+### 启动
 ```
 //启动
 rigger start
 ```
 
-## Config
+## 配置
 ```
 //conf/conf.ini
 //listen port
@@ -83,7 +85,7 @@ addrs=127.0.0.1:2181
 basePath=/odin_demo
 ```
 
-## Example
+## 运行
 ```
 rigger example zookeeper
 //Output
