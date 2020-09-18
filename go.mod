@@ -5,7 +5,6 @@ go 1.12
 replace github.com/smallnest/rpcx v0.0.0 => github.com/smallnest/rpcx v0.0.0-20200214051052-c65a6415f3d1
 
 require (
-	git.100tal.com/wangxiao_go_lib/microCommon v1.0.8 // indirect
 	github.com/abronan/valkeyrie v0.0.0-20200127174252-ef4277a138cd // indirect
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.69 // indirect
 	github.com/anacrolix/envpprof v1.1.0 // indirect
