@@ -103,7 +103,7 @@ UserInfo: &{网校 %!s(int=20) beijing}
 
 ## 联系我们
 <p align="left">
- <a href="https://tal-tech.github.io/gaea-doc/" target="_blank">
+ <a href="https://tal-tech.github.io/odin-doc/" target="_blank">
      <img src="https://cdn.nlark.com/yuque/0/2020/png/2138318/1600340932767-f20251e4-688a-4077-9721-9296f5319e56.png"  alt="Contact Us" align=center />
  </a>
 </p>
