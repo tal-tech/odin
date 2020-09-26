@@ -49,7 +49,7 @@ Odin框架目前已支持日志Trace跨服务传递，记录一次完整请求�
 
 ### 安装框架
 ```
-rigger new micro rpcproject
+rigger new rpc rpcproject
 正克隆到 '/winshare/go/src/rpcproject'...
 rpcprojec项目已创建完成, 使用:
 cd /winshare/go/src/rpcproject && rigger build 

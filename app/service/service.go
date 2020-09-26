@@ -2,11 +2,10 @@ package service
 
 import (
 	"context"
-	"odin/app/serviceInterface"
 	"odin/proto"
-
 	rpcxplugin "github.com/tal-tech/odinPlugin"
 	"github.com/tal-tech/odinPlugin/wrap"
+	"odin/app/serviceInterface"
 )
 
 //rpcx服务注册类型
@@ -111,3 +110,4 @@ func (this *Odin) MysqlDelete(ctx context.Context, req *proto.MysqlDeleteRequest
 	}
 	return this.Wrapcall(ctx, "MysqlDelete", fn)
 }
+
