@@ -29,7 +29,6 @@ func (this *UserService) UserInfo(ctx context.Context, req *proto.UserInfoReques
 	resp.City = user.City
 	return nil
 }
-
 func (this *UserService) AddUser(ctx context.Context, req *proto.AddUserRequest, resp *proto.AddUserResponse) error {
 	userRepo, err := repository.GetUserRepo(ctx)
 	if err != nil {

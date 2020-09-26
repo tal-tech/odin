@@ -1,7 +1,5 @@
 module odin
 
-go 1.12
-
 replace github.com/smallnest/rpcx v0.0.0 => github.com/smallnest/rpcx v0.0.0-20200214051052-c65a6415f3d1
 
 require (
@@ -41,13 +39,13 @@ require (
 	github.com/spf13/cast v1.3.1
 	github.com/streadway/handy v0.0.0-20200128134331-0f66f006fb2e // indirect
 	github.com/tal-tech/connPool v0.0.0-20200806112113-738c408fe6ae // indirect
-	github.com/tal-tech/hera v0.0.0-20200807103530-dd689e514981
-	github.com/tal-tech/loggerX v0.0.0-20200806121626-bc3db51db258
+	github.com/tal-tech/hera v1.0.0
+	github.com/tal-tech/loggerX v1.0.0
 	github.com/tal-tech/odinPlugin v0.0.0-20200807094654-094a1edd2a60
 	github.com/tal-tech/routinePool v0.0.0-20200806121001-477db7bdba8a // indirect
-	github.com/tal-tech/torm v0.0.0-20200806135310-06840940369a
-	github.com/tal-tech/xredis v0.0.0-20200806132427-7807ee6297d9
-	github.com/tal-tech/xtools v0.0.0-20200827070525-4842d161be6a
+	github.com/tal-tech/torm v1.0.0
+	github.com/tal-tech/xredis v1.0.0
+	github.com/tal-tech/xtools v0.0.0-20200925092432-5d398cc834e0
 	github.com/templexxx/xor v0.0.0-20191217153810-f85b25db303b // indirect
 	github.com/tjfoc/gmsm v1.3.0 // indirect
 	github.com/toolkits/file v0.0.0-20160325033739-a5b3c5147e07 // indirect
@@ -57,6 +55,7 @@ require (
 	github.com/xtaci/kcp-go v5.4.20+incompatible // indirect
 	github.com/xtaci/lossyconn v0.0.0-20200209145036-adba10fffc37 // indirect
 	go.opencensus.io v0.22.3 // indirect
+	golang.org/x/build v0.0.0-20190111050920-041ab4dc3f9d // indirect
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0 // indirect
 )

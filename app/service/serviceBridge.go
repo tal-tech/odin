@@ -44,13 +44,13 @@ type MysqlDelete interface {
 type serviceBridge struct {
 	SayHelloImpl    SayHello
 	UserInfoImpl    UserInfo
-	AddUserImpl     AddUser
-	UpdateUserImpl  UpdateUser
+	AddUserImpl    AddUser
+	UpdateUserImpl    UpdateUser
 	RedisSetImpl    RedisSet
 	RedisGetImpl    RedisGet
-	MysqlInsertImpl MysqlInsert
-	MysqlSelectImpl MysqlSelect
-	MysqlDeleteImpl MysqlDelete
+	MysqlInsertImpl    MysqlInsert
+	MysqlSelectImpl    MysqlSelect
+	MysqlDeleteImpl    MysqlDelete
 }
 
 func NewServiceBridge() *serviceBridge {
@@ -92,3 +92,4 @@ func (s *serviceBridge) MysqlSelect(ctx context.Context, req *proto.MysqlSelectR
 func (s *serviceBridge) MysqlDelete(ctx context.Context, req *proto.MysqlDeleteRequest, resp *proto.MysqlDeleteResponse) error {
 	return s.MysqlDeleteImpl.MysqlDelete(ctx, req, resp)
 }
+
