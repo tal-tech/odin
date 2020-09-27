@@ -39,8 +39,8 @@ require (
 	github.com/spf13/cast v1.3.1
 	github.com/streadway/handy v0.0.0-20200128134331-0f66f006fb2e // indirect
 	github.com/tal-tech/connPool v0.0.0-20200806112113-738c408fe6ae // indirect
-	github.com/tal-tech/hera v1.0.0
-	github.com/tal-tech/loggerX v1.0.0
+	github.com/tal-tech/hera v1.0.1
+	github.com/tal-tech/loggerX v1.0.1
 	github.com/tal-tech/odinPlugin v0.0.0-20200807094654-094a1edd2a60
 	github.com/tal-tech/routinePool v0.0.0-20200806121001-477db7bdba8a // indirect
 	github.com/tal-tech/torm v1.0.0
