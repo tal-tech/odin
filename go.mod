@@ -45,7 +45,6 @@ require (
 	github.com/tal-tech/routinePool v0.0.0-20200806121001-477db7bdba8a // indirect
 	github.com/tal-tech/torm v1.0.0
 	github.com/tal-tech/xredis v1.0.0
-	github.com/tal-tech/xtools v0.0.0-20200925092432-5d398cc834e0
 	github.com/templexxx/xor v0.0.0-20191217153810-f85b25db303b // indirect
 	github.com/tjfoc/gmsm v1.3.0 // indirect
 	github.com/toolkits/file v0.0.0-20160325033739-a5b3c5147e07 // indirect
