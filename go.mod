@@ -43,7 +43,7 @@ require (
 	github.com/tal-tech/loggerX v1.0.1
 	github.com/tal-tech/odinPlugin v0.0.0-20200807094654-094a1edd2a60
 	github.com/tal-tech/routinePool v0.0.0-20200806121001-477db7bdba8a // indirect
-	github.com/tal-tech/torm v1.0.1
+	github.com/tal-tech/torm v1.0.2
 	github.com/tal-tech/xredis v1.0.0
 	github.com/tal-tech/xtools v1.0.0
 	github.com/templexxx/xor v0.0.0-20191217153810-f85b25db303b // indirect
