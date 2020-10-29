@@ -19,6 +19,8 @@ default: build
 
 build:
 	go build -tags "$(REGISTRY)" -ldflags $(LD_FLAGS) -gcflags "-N" -i -o ./bin/$(SERVICE) ./$(MAIN)
+build-windows:
+	go build -tags "$(REGISTRY)" -ldflags $(LD_FLAGS) -gcflags "-N" -i -o ./bin/$(SERVICE).exe ./$(MAIN)
 dev: build
 	cp $(CUR_PWD)/conf/conf_dev.ini $(CUR_PWD)/conf/conf.ini && ./bin/$(SERVICE) -v=true
 clean:
