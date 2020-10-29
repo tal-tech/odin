@@ -32,6 +32,7 @@ require (
 	github.com/pierrec/lz4 v2.0.5+incompatible // indirect
 	github.com/rcrowley/go-metrics v0.0.0-20200313005456-10cdbea86bc0 // indirect
 	github.com/samuel/go-zookeeper v0.0.0-20200724154423-2164a8ac840e // indirect
+	github.com/shirou/gopsutil v2.20.9+incompatible // indirect
 	github.com/sirupsen/logrus v1.5.0 // indirect
 	github.com/smallnest/libkv-etcdv3-store v1.1.6 // indirect
 	github.com/smallnest/rpcx v0.0.0
@@ -41,21 +42,16 @@ require (
 	github.com/tal-tech/connPool v0.0.0-20200806112113-738c408fe6ae // indirect
 	github.com/tal-tech/hera v1.0.1
 	github.com/tal-tech/loggerX v1.0.1
-	github.com/tal-tech/odinPlugin v0.0.0-20200807094654-094a1edd2a60
+	github.com/tal-tech/odinPlugin v1.0.0
 	github.com/tal-tech/routinePool v0.0.0-20200806121001-477db7bdba8a // indirect
 	github.com/tal-tech/torm v1.0.2
 	github.com/tal-tech/xredis v1.0.0
 	github.com/tal-tech/xtools v1.0.0
 	github.com/templexxx/xor v0.0.0-20191217153810-f85b25db303b // indirect
 	github.com/tjfoc/gmsm v1.3.0 // indirect
-	github.com/toolkits/file v0.0.0-20160325033739-a5b3c5147e07 // indirect
-	github.com/toolkits/nux v0.0.0-20191107142017-8ddcb501004c // indirect
-	github.com/toolkits/slice v0.0.0-20141116085117-e44a80af2484 // indirect
-	github.com/toolkits/sys v0.0.0-20170615103026-1f33b217ffaf // indirect
 	github.com/xtaci/kcp-go v5.4.20+incompatible // indirect
 	github.com/xtaci/lossyconn v0.0.0-20200209145036-adba10fffc37 // indirect
 	go.opencensus.io v0.22.3 // indirect
-	golang.org/x/build v0.0.0-20190111050920-041ab4dc3f9d // indirect
 	golang.org/x/sync v0.0.0-20200317015054-43a5402ce75a // indirect
 	golang.org/x/time v0.0.0-20191024005414-555d28b269f0 // indirect
 )
